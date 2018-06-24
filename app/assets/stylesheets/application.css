@@ -1,0 +1,104 @@
+/*
+ * This is a manifest file that'll be compiled into application.css, which will include all the files
+ * listed below.
+ *
+ * Any CSS and SCSS file within this directory, lib/assets/stylesheets, or any plugin's
+ * vendor/assets/stylesheets directory can be referenced here using a relative path.
+ *
+ * You're free to add application-wide styles to this file and they'll appear at the bottom of the
+ * compiled file so the styles you add here take precedence over styles defined in any other CSS/SCSS
+ * files in this directory. Styles in this file should be added after the last require_* statement.
+ * It is generally better to create a new file per style scope.
+ *
+ *= require_tree .
+ *= require_self
+ *= require select2
+ *= require select2-bootstrap
+ */
+
+body {
+  background-repeat: no-repeat;
+    background-color: #efeeee !important;
+  background-position: center top;
+}
+
+div.panel-weather {
+  margin-top: 1em;
+  text-align: center;
+  background-color: #6412a2e6;
+  border-radius: 5px;
+  color: #FFF;
+  box-shadow: 0 2px 2px rgba(0,0,0,.05);
+  padding: 1em;
+}
+
+div.panel-weather h1.location {
+  margin-top: 0;
+  font-family: 'Open Sans', sans-serif;
+}
+
+div.panel-weather hr {
+  opacity: .50; /* Standard: FF gt 1.5, Opera, Safari, CSS3 */
+  filter: alpha(opacity=50); /* IE lt 8 */
+  -ms-filter: "alpha(opacity=50)"; /* IE 8 */
+  -khtml-opacity: .50; /* Safari 1.x */
+  -moz-opacity: .50; /* FF lt 1.5, Netscape */
+}
+
+.current-temp {
+  text-align: right;
+  font-weight: bold;
+  font-size: 6em;
+}
+
+.weather_description {
+  font-size: 1.5em;
+}
+
+.current_time {
+  font-size: 1.1em;
+}
+
+.search-box {
+  margin-top: 3em;
+}
+
+.alert {
+  margin: 2em;
+}
+
+select.city_name {
+  width: 100%;
+}
+.input-group-btn:last-child>.btn, .input-group-btn:last-child>.btn-group {
+    z-index: 2;
+    margin-left: 15px !important;
+    border-radius: 2em;
+}
+.select2-container--bootstrap .select2-selection--single.input-lg, .input-group-lg .select2-container--bootstrap .select2-selection--single, .form-group-lg .select2-container--bootstrap .select2-selection--single {
+    border-radius: 26px !important;
+    font-size: 18px;
+    height: 46px;
+    line-height: 1.3333333;
+    padding: 10px 31px 10px 16px;
+    /* 1 */
+}
+.btn-group-lg>.btn, .btn-lg {
+    padding: 10px 30px !important;
+}
+.input-group .form-control:last-child, .input-group-addon:last-child, .input-group-btn:first-child>.btn-group:not(:first-child)>.btn, .input-group-btn:first-child>.btn:not(:first-child), .input-group-btn:last-child>.btn, .input-group-btn:last-child>.btn-group>.btn, .input-group-btn:last-child>.dropdown-toggle {
+    border-top-left-radius: 2em !important;
+    border-bottom-left-radius: 2em !important;
+}
+.btn-default {
+    color: white !important;
+    background-color: #6412a2e6 !important;
+    border-color: #6412a2e6 !important;
+}
+.navbar-default .navbar-brand {
+    color: white !important;
+}
+.navbar-default {
+    background-color: #444343 !important;
+    border-color: #e7e7e7;
+}

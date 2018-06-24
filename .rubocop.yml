@@ -1,0 +1,26 @@
+AllCops:
+  Exclude:
+    - 'Rakefile'
+    - 'Gemfile'
+    - 'config.ru'
+    - 'app/mailers/application_mailer.rb'
+    - 'app/controllers/application_controller.rb'
+    - 'app/helpers/application_helper.rb'
+    - 'app/models/application_record.rb'
+    - 'db/schema.rb'
+    - 'db/seeds.rb'
+    - 'bin/*'
+    - 'spec/spec_helper.rb'
+    - 'spec/rails_helper.rb'
+    - 'config/application.rb'
+    - 'config/environments/*'
+    - 'config/puma.rb'
+    - 'config/spring.rb'
+    - 'config/initializers/backtrace_silencers.rb'
+    - 'config/initializers/wrap_parameters.rb'
+
+Documentation:
+  Enabled: false
+
+Metrics/LineLength:
+  Enabled: false

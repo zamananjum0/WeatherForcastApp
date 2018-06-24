@@ -1,4 +1,4 @@
-# WeatherApp - CareerFoundry Code Challenge
+# WeatherApp - Genome Coding Challenge
 
 [![Code Climate](https://codeclimate.com/github/codeclimate/codeclimate/badges/gpa.svg)](https://codeclimate.com/github/jalerson/weatherapp) [![Codeship Status for jalerson/weatherapp](https://app.codeship.com/projects/66cef6a0-51df-0135-774f-3acbe865a34f/status?branch=master)](https://app.codeship.com/projects/234525)
 
@@ -40,9 +40,6 @@ Demo:
 
 ### Front-end
 
-- JQuery
-- Bootstrap
-- select2
 - [Weather Icons](https://erikflowers.github.io/weather-icons/)
 - [Google Fonts](https://fonts.google.com/)
 - [Animate](https://daneden.github.io/animate.css/)
@@ -51,7 +48,9 @@ Demo:
 
 - [Geokit](https://github.com/geokit/geokit): to locate the user based on the IP address
 - [Rest-client](https://github.com/rest-client/rest-client): to fetch weather data from the OpenWeatherMap API. I could use a gem to get this information, however, the challenge specs state that my app should use the API.
-- [Google Places](https://github.com/qpowell/google_places): the Google Places API have been used (a) to get the location lat/lng when the user provides a city name on the search field; (b) to autocomplete the search field and (c) to get photos from the place to the page's background.
+- [Google Places](https://github.com/qpowell/google_places): the Google Places API have been used to get the location lat/lng when the user provides a city name on the search field.
+
+### Testing
 - RSpec/Capybara
 - [Rubocop](https://github.com/bbatsov/rubocop)
 
